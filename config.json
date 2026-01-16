@@ -1,16 +1,16 @@
 {
   "auth": {
-    "device_id": "",
-    "account_id": "", 
-    "secret_key": ""
+    "device": "",
+    "accountId": "", 
+    "secret": ""
   },
   "bot": {
-    "status_message": "SizzyBotV1",
-    "platform_type": "Windows",
-    "command_prefix": "!"
+    "status": "SizzyBotV1",
+    "platform": "Windows",
+    "prefix": "!"
   },
   "fortnite": {
-    "default_cosmetic": {
+    "cosmetic": {
       "cid": "CID_NPC_Athena_Commando_M_Fallback",
       "eid": "EID_NPC_Gardener_Nurture",
       "backpack": "",
