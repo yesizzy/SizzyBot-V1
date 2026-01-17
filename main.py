@@ -101,7 +101,7 @@ async def loadDefaults(bot, config):
     if not bot.party:
         return
     
-    defaultItems = config['Cosmetic']  # Changed from 'defaultCosmetic' to 'Cosmetic'
+    defaultItems = config['Cosmetic']  
     
     if defaultItems.get('cid'):
         await bot.party.me.set_outfit(defaultItems['cid'])
